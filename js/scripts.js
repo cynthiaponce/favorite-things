@@ -10,7 +10,16 @@ $(document).ready(function(){
     var myArray = [favColor, favAnimal, favDish, favCountry]
     alert(myArray);
 
-    myArray.
+//These are exercises to practice manipulating cloneArray
+//    var cloneArray = myArray.slice();
+//    cloneArray.reverse();
+//    cloneArray[0];
+//    cloneArray.push("hola")
+//    alert(cloneArray);
+
+
+
+
 
 
     $("#responses").show();
