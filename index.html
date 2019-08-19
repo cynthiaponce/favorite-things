@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>My Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>My Favorite Things</h1>
+    <p>Hey there! We would love to hear about all of your favorite things. Please enter the following information:</p>
+      <br>
+      <br>
+      <form class="form" action="index.html" method="post">
+        <label for = "color">What is your favorite color?</label>
+        <input text = "text" id="color">
+        <br>
+        <br>
+        <label for = "animal">What is your favorite animal?</label>
+        <input text = "text" id="animal">
+        <br>
+        <br>
+        <label for= "dish">What is your favorite dish?</label>
+        <input text="text" id="dish">
+        <br>
+        <br>
+        <label for = "travel">What's your favorite country you've visited?</label>
+        <input text="text" id="travel">
+        <br>
+        <br>
+        <button type="submit" name="button" class="btn btn-danger">Submit</button>
+        <br>
+        <br>
+        <div id= "responses">
+        <p>Thanks for filling out the survery! Your responses:</p>
+          <ul>
+            <li><strong>Favorite color:</strong> <span id="color-response"></span></li>
+            <li><strong>Favorite animal:</strong> <span id="animal-response"></span></li>
+            <li><strong>Favorite dish:</strong> <span id="food-response"></span></li>
+            <li><strong>Favorite country:</strong> <span id ="country-response"></span></li>
+          </ul>
+        </div>
+
+
+      </form>
+
+
+
+
+    </div>
+  </body>
+</html>
